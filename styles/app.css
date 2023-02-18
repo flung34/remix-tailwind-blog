@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mainLayout {
+    display: grid;
+    grid-template-columns: 2fr 65ch 1fr;
+    grid-gap:8px;
+}
